@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
+
     //TicTacToeGame!!!
     //FIKSOVANI ZMINNI
     public static final String POROZHNYA = "   ", KHRESTYK = " X ",NULYK = " O ";
@@ -15,6 +16,7 @@ public static String aktyvnyjGravets;
     public static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println();
 PochatyGru();
 do {
 OtrymatyVedennyaGravtsya();
